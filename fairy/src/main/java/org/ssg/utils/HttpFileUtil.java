@@ -1,4 +1,4 @@
-package utils;
+package org.ssg.utils;
 
 import java.io.DataInputStream;
 import java.io.FileOutputStream;
@@ -29,7 +29,7 @@ public class HttpFileUtil {
 			byte[] body = readBody(request);
 			logger.info(body.length);
 			String fieldName = "filename";
-			String filePath = utils.ConfigUtil.get("file.path");
+			String filePath = org.ssg.utils.ConfigUtil.get("file.path");
 			//取得所有Body内容的字符串表示  
 			String textBody = new String(body, "ISO-8859-1");
 			logger.info(textBody.toString());

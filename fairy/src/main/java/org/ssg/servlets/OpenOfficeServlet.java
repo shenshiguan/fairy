@@ -1,4 +1,4 @@
-package servlets;
+package org.ssg.servlets;
 
 import java.io.IOException;
 
@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import utils.ConfigUtil;
-import utils.HttpClientUtil;
-import utils.WordConvertPdf;
-import utils.WordToPdf;
+import org.ssg.utils.ConfigUtil;
+import org.ssg.utils.HttpClientUtil;
+import org.ssg.utils.WordConvertPdf;
+import org.ssg.utils.WordToPdf;
 
 
 @WebServlet(name = "JavaConvert", urlPatterns = {"/javaConvert"})

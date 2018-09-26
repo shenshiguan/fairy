@@ -1,4 +1,4 @@
-package utils;
+package org.ssg.utils;
 
 public class BatchImportFiles {
 
