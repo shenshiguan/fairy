@@ -1,4 +1,4 @@
-package utils;
+package org.ssg.utils;
 
 import java.io.IOException;
 import java.net.InetAddress;

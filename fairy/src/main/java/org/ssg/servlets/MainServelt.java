@@ -1,13 +1,13 @@
-package servlets;
+package org.ssg.servlets;
 import org.apache.commons.lang3.StringUtils;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import org.apache.log4j.Logger;
 import com.jacob.com.Dispatch;
-import utils.HttpClientUtil;
-import utils.ConfigUtil;
-import utils.ConvertUtil;
+import org.ssg.utils.HttpClientUtil;
+import org.ssg.utils.ConfigUtil;
+import org.ssg.utils.ConvertUtil;
 import java.util.Queue;
 import java.util.Map;
 

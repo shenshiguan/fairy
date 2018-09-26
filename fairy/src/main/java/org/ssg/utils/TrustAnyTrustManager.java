@@ -1,4 +1,4 @@
-package utils;
+package org.ssg.utils;
 
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.CertificateException;

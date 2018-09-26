@@ -1,4 +1,4 @@
-package utils;
+package org.ssg.utils;
 
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;

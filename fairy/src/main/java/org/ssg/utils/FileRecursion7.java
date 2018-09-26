@@ -1,9 +1,9 @@
-package utils;
+package org.ssg.utils;
 
 import java.io.File;
 import java.io.IOException;
 
-import utils.WordConvertPdf;
+import org.ssg.utils.WordConvertPdf;
 
 public class FileRecursion7 {
 	static LogOut logout = new LogOut();
